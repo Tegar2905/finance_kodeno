@@ -2,7 +2,17 @@
 
 @section('content')
 
-<div class="container">
+<div class="content-wrapper">
+	<div class="content-header">
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-sm-6">
+					<h1 class="m-0">create new Invoice</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="content">
 	<div class="card">
 		<div class="card-header"><b><i class="fas fa-shopping-bag"></i> Create New Invoice</b></div>
 		<div class="card-body">
@@ -220,6 +230,7 @@
 			</form>
 		</div>
 	</div>
+	</section>
 </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -44,7 +44,7 @@ class InvoiceController extends Controller
             's_code' => 'required|min:7'
         ]);
         Invoice::create($request->all());
-
+        return $request;
         return redirect()->route('invoice.index');
     }
 
